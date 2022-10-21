@@ -29,10 +29,10 @@ return(
     </Carousel>
     <div className="cards">  
       <Card className="card">
-        <h1>Electronics</h1>
+        <h1>Browse Comics</h1>
         <img src={Comics} alt="Comics Category" className="card-content"></img>
         <br />
-        <Link to="/categories" state={"categories"} className="link">
+        <Link to="/categories" state={"Comics"} className="link">
           Shop Now
         </Link>
       </Card>
