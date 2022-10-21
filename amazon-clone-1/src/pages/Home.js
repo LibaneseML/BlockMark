@@ -30,9 +30,9 @@ return(
     <div className="cards">  
       <Card className="card">
         <h1>Electronics</h1>
-        <img src={Comics} alt="Electronics Category" className="card-content"></img>
+        <img src={Comics} alt="Comics Category" className="card-content"></img>
         <br />
-        <Link to="/categories" state={"Electronics"} className="link">
+        <Link to="/categories" state={"categories"} className="link">
           Shop Now
         </Link>
       </Card>
