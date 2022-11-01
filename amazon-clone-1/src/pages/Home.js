@@ -29,7 +29,7 @@ return(
     </Carousel>
     <div className="cards">  
       <Card className="card">
-        <h1>All categories</h1>
+        <h1>All Categories</h1>
         <img src={Comics} alt="Comics Category" className="card-content"></img>
         <br />
         <Link to="/categories" state={"Comics"} className="link">
