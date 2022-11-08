@@ -6,7 +6,7 @@ import { Carousel, Card } from 'antd';
 import Carousel1 from "../images/carousel1.png";
 import Carousel2 from "../images/carousel2.png";
 import Carousel3 from "../images/carousel3.png";
-import Comics from "../images/comics.png";
+import Allcategories from "../images/Allcategories.png";
 import ArtemisFowl from "../images/ArtemisFowl.png";
 import MobyDick from "../images/MobyDick.png";
 import Adventure from "../images/adventure.png";
@@ -30,9 +30,9 @@ return(
     <div className="cards">  
       <Card className="card">
         <h1>All Categories</h1>
-        <img src={Comics} alt="Comics Category" className="card-content"></img>
+        <img src={Allcategories} alt="All categories" className="card-content"></img>
         <br />
-        <Link to="/categories" state={"Comics"} className="link">
+        <Link to="/categories" state={"All categories"} className="link">
           Shop Now
         </Link>
       </Card>
