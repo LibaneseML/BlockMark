@@ -30,9 +30,9 @@ return(
     <div className="cards">  
       <Card className="card">
         <h1>All Categories</h1>
-        <img src={Comics} alt="All Categories" className="card-content"></img>
+        <img src={Comics} alt="Comics Category" className="card-content"></img>
         <br />
-        <Link to="/categories" state={"All Categories"} className="link">
+        <Link to="/categories" state={"Comics"} className="link">
           Shop Now
         </Link>
       </Card>
@@ -40,7 +40,7 @@ return(
         <h1>Jaster USB</h1>
         <img src={ArtemisFowl} alt="Artemis Fowl" className="card-content"></img>
         <br />
-        <Link to="/categories" state={"Jaster"} className="link">
+        <Link to="/categories" state={"Comics"} className="link">
           View Product
         </Link>
       </Card>
